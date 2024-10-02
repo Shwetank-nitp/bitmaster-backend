@@ -1,0 +1,24 @@
+{
+  "name": "backend-leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env index.js",
+    "test_logs": "nodemon --env-file=.env index.js >> logs.txt",
+    "start": "node --env-file=.env index.js >> logs.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "marked": "^14.1.2",
+    "mongoose": "^8.6.3"
+  }
+}
