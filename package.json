@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon --env-file=.env index.js",
     "test_logs": "nodemon --env-file=.env index.js >> logs.txt",
-    "start": "node --env-file=.env index.js >> logs.txt"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
