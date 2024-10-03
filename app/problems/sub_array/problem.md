@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Given an array of integers `nums` and an integer `k`, your task is to find the total number of subarrays whose sum equals `k`.
+Given an array of integers `nums` and an integer `k`, your task is to find the largest of subarrays whose sum equals `k`.
 
 A subarray is a contiguous part of an array, and the sum of the elements in this subarray should be equal to `k`.
 
@@ -13,12 +13,16 @@ A subarray is a contiguous part of an array, and the sum of the elements in this
 
 ### Output
 
-- Return the number of subarrays whose sum equals `k`.
+- Return the length of largest subarrays whose sum equals `k`.
 
 ### Example 1:
 
 ```
 Input: nums = [1, 1, 1], k = 2
+```
+
+```
+Output: 2
 ```
 
 ### Example 2:
@@ -27,10 +31,18 @@ Input: nums = [1, 1, 1], k = 2
 Input: nums = [1, 2, 3], k = 3
 ```
 
+```
+Output: 2
+```
+
 ### Example 3:
 
 ```
 Input: nums = [0, 0, 0], k = 0
+```
+
+```
+Output: 3
 ```
 
 ### Constraints:
