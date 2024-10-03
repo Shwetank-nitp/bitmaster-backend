@@ -9,7 +9,7 @@ const router = Router();
 const options = {
   httpOnly: true,
   secure: true,
-  sameSite: "strict",
+  sameSite: "none",
 };
 
 router.post("/signup", async (req, res) => {
